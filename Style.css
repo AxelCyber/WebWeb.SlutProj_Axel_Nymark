@@ -1,0 +1,130 @@
+body
+{
+    background-color: grey;
+}
+
+#navMenu 
+{
+
+}
+
+#navMenu ul
+{
+    list-style: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+#navMenu li
+{
+    font-family: Operator Mono, Consolas, monospace;
+    font-weight: bold;
+    float: left;
+}
+
+#navMenu li a
+{
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 144px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+#navMenu li a:hover
+{
+    background-color: yellow;
+    transition: background-color 0.7s;
+    font-style: italic;
+}
+
+
+.Boxy1{
+    background-color: #f1f1f1;
+    position: absolute;
+    float: left;
+    top: 150px;
+    left: 11%;   
+    margin: 20px;
+    padding: 220px 450px;
+    border: thick solid black;
+}
+
+.Boxy2{
+    background-color: #f1f1f1;
+    position: absolute;
+    float: left;
+    top: 800px;
+    left: -1%;   
+    margin: 20px;
+    padding: 260px 600px;
+    border: thick solid black;
+}
+
+
+.Text1{
+    font-size: 50px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 700px;
+    left: 510px;
+    
+}
+
+.Loggin1{
+    
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 40px;
+    float: left;
+    left: 44%;
+    top: 1400px;
+}
+
+.Inlogg1{
+    
+    position: absolute;
+    float: left;
+    left: 39%;
+    top: 30%;
+}
+
+
+
+.Boop {
+    font-size: 12px;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    color: #000;
+    float: center;
+    left: 10px;
+    margin: 5px 0px 5px 25px;
+    padding: 5px;
+}
+.Box
+{
+    position: absolute;
+    float: right;
+    width: 30%;
+    left: 35%;
+    top: 30%;
+    border: 2px #f2f2f2;
+    background-color: #5F5F5F;
+    border-radius: 20px;
+    box-shadow: 3px 3px #a6a6a6;
+    z-index: auto;
+}
+.Thingy {
+    display: block;
+    width: 80%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 200px;
+}

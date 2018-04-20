@@ -128,3 +128,55 @@ body
     border: 1px solid #ccc;
     border-radius: 200px;
 }
+
+.left{
+    position: absolute;
+    float: left;
+    left: 375px;
+    top: 400px;
+}
+
+.right{
+    position: absolute;
+    float: left;
+    left: 825px;
+    top: 400px;
+}
+
+.left2{
+    position: absolute;
+    float: left;
+    left: 375px;
+    top: 800px;
+}
+
+.right2{
+    position: absolute;
+    float: left;
+    left: 825px;
+    top: 800px;
+}
+
+.images
+{
+    display: none;
+}
+
+#firstShow
+{
+    display: block;
+}
+
+#ImageSlideshow
+{
+    padding-top: 10%;
+    padding-left: 37%;
+    padding-right: 37%;
+}
+
+#ImageSlideshow2
+{
+    padding-top: 40%;
+    padding-left: 37%;
+    padding-right: 37%;
+}

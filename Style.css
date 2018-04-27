@@ -74,6 +74,17 @@ body
     z-index: -1;
 }
 
+.Boxy4{
+    background-color: white;
+    position: absolute;
+    float: left;
+    top: 190px;
+    left: 33%;   
+    margin: 20px;
+    padding: 280px 200px;
+    border: thick solid black;
+}
+
 .Text1{
     font-size: 50px;
     font-family: sans-serif;
@@ -91,6 +102,27 @@ body
     float: left;
     left: 44%;
     top: 1400px;
+}
+
+.Loggin2{
+    
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 40px;
+    float: left;
+    left: 44%;
+    top: 1700px;
+}
+
+.Loggin3{
+    
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 40px;
+    float: left;
+    left: 44%;
+    top: 800px;
+    color: white;
 }
 
 .Inlogg1{
@@ -169,7 +201,7 @@ body
 }
 
 .images
-{
+{   
     display: none;
     
 }
@@ -206,3 +238,30 @@ body
      border-style: 20px solid white;
 }
 
+.textruta1{
+                position: absolute;
+                float: left;
+                left: 540px;
+                width: 250px;
+                top: 230px;
+}
+
+.h1big{
+    font-size: 25px;
+}
+
+.färgfont{
+    font-size: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}

@@ -45,7 +45,7 @@ body
     position: absolute;
     float: left;
     top: 150px;
-    left: 11%;   
+    left: 13%;
     margin: 20px;
     padding: 220px 450px;
     border: thick solid black;
@@ -56,21 +56,22 @@ body
     position: absolute;
     float: left;
     top: 800px;
-    left: -1%;   
+    left: 3.9%;   
     margin: 20px;
     padding: 260px 600px;
     border: thick solid black;
 }
 
 .Boxy3{
-    background-color: dimgrey;
+    background-color: white;
     position: absolute;
     float: left;
-    top: 190px;
+    top: 28.2%;
     left: -1%;   
-    margin: 20px;
-    padding: 360px 662px;
+    margin: 1.6%;
+    padding: 26.64% 49%;
     border: thick solid black;
+    border-width: 5%;
     z-index: -1;
 }
 
@@ -85,12 +86,49 @@ body
     border: thick solid black;
 }
 
+.Boxy5{
+    background-color: white;
+    position: absolute;
+    border: thick solid white;
+    float: left;
+    top: 136.2%;
+    left: 17.43%;
+    margin: 1.5%;
+    padding: 8% 31.6%;
+    border: 5px solid black;
+    border-top-width: 0px;
+    z-index: 1;
+}
+
+.Boxy6{
+    background-color: black;
+    position: absolute;
+    float: left;
+    top: 122%;
+    left: 26%;   
+    margin: 20px;
+    padding: 130px 310px;
+    border: thick solid Lime;
+    z-index: 2;
+}
+
+.Rocket_1_Text{
+    position: absolute;
+    float: left;
+    font-size: 25px;
+    top: 850px;
+    left: 410px;
+    color: lime;
+    z-index: 2;
+    width: 600px;
+}
+
 .Text1{
     font-size: 50px;
     font-family: sans-serif;
     position: absolute;
-    top: 700px;
-    left: 510px;
+    top: 107%;
+    left: 40%;
     
 }
 
@@ -111,7 +149,7 @@ body
     font-size: 40px;
     float: left;
     left: 44%;
-    top: 1700px;
+    top: 1800px;
 }
 
 .Loggin3{
@@ -134,7 +172,6 @@ body
 }
 
 
-
 .Boop {
     font-size: 12px;
     font-family: Verdana, Arial;
@@ -145,6 +182,7 @@ body
     margin: 5px 0px 5px 25px;
     padding: 5px;
 }
+
 .Box
 {
     position: absolute;
@@ -216,17 +254,17 @@ body
     padding-top: 10%;
     padding-left: 30%;
     padding-right: 37%;
-    
+    margin: 1.45% -0.1%;
 }
 
-#ImageSlideshow img, #ImageSlideshow2 img {
-    border: solid white 7px;
+#ImageSlideshow img, #ImageSlideshow2 img{
+    border: solid lime 7px;
     border-radius: 20px;
 }
 
 #ImageSlideshow2 
 {
-    padding-top: 35%;
+    padding-top: 45%;
     padding-left: 30%;
     padding-right: 37%;
 
@@ -264,4 +302,44 @@ body
 
 .blue{
     color: blue;
+}
+
+.text1{
+    font-size: 60px;
+    position: absolute;
+    float: left;
+    left: 550px;
+    top: 150px;
+    color: lime;
+    outline-color: black;
+}
+
+.text2{
+    font-size: 60px;
+    position: absolute;
+    float: left;
+    left: 550px;
+    top: 150px;
+    color: white;
+    outline-color: black;
+}
+
+.text3{
+    font-size: 60px;
+    position: absolute;
+    float: left;
+    left: 550px;
+    top: 150px;
+    color: white;
+    outline-color: black;
+}
+
+.text4{
+    font-size: 60px;
+    position: absolute;
+    float: left;
+    left: 550px;
+    top: 150px;
+    color: white;
+    outline-color: black;
 }

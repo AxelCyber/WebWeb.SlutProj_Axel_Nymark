@@ -25,11 +25,11 @@ body
 #navMenu li a
 {
     display: inline-block;
-    margin: 10px 20px 10px;
-    padding: 14px 144px 20px;
+    margin: 4% 16% 3%;
+    padding: 4% 144px 5%;
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 160%;
 }
 
 #navMenu li a:hover
@@ -44,10 +44,10 @@ body
     background-color: #f1f1f1;
     position: absolute;
     float: left;
-    top: 150px;
+    top: 26%;
     left: 13%;
-    margin: 20px;
-    padding: 220px 450px;
+    margin: 3%;
+    padding: 16% 34%;
     border: thick solid black;
 }
 
@@ -392,7 +392,7 @@ body
     outline-color: black;
 }
 
-.{
+.s{
     font-size: 20px;
     position: absolute;
     float: left;
@@ -401,4 +401,12 @@ body
     color: black;
     outline-color: black;
     z-index: 5;
+}
+
+@media (max-device-width: 0px)
+{
+    #navMenu li a
+    {
+        font-size: 5px;
+    }
 }

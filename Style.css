@@ -52,7 +52,7 @@ body
 }
 
 .Boxy2{
-    background-color: #f1f1f1;
+    background-color: white;
     position: absolute;
     float: left;
     top: 800px;
@@ -82,7 +82,7 @@ body
     top: 190px;
     left: 33%;   
     margin: 20px;
-    padding: 280px 200px;
+    padding: 400px 200px;
     border: thick solid black;
 }
 
@@ -206,8 +206,18 @@ body
     font-family: sans-serif;
     font-size: 40px;
     float: left;
-    left: 44%;
-    top: 800px;
+    left: 45%;
+    top: 1100px;
+    color: white;
+}
+
+.Link1{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 40px;
+    float: left;
+    left: 28%;
+    top: 680px;
     color: white;
 }
 
@@ -262,28 +272,28 @@ body
     position: absolute;
     float: left;
     left: 368px;
-    top: 400px;
+    top: 460px;
 }
 
 .right{
     position: absolute;
     float: left;
-    left: 925px;
-    top: 400px;
+    left: 932px;
+    top: 460px;
 }
 
 .left2{
     position: absolute;
     float: left;
     left: 368px;
-    top: 1360px;
+    top: 1550px;
 }
 
 .right2{
     position: absolute;
     float: left;
-    left: 925px;
-    top: 1360px;
+    left: 932px;
+    top: 1550px;
 }
 
 .images
@@ -357,7 +367,7 @@ body
     position: absolute;
     float: left;
     left: 550px;
-    top: 150px;
+    top: 165px;
     color: lime;
     outline-color: black;
 }
@@ -392,6 +402,63 @@ body
     outline-color: black;
 }
 
+.text5{
+    font-size: 60px;
+    position: absolute;
+    float: left;
+    left: 550px;
+    top: 1245px;
+    color: lime;
+    outline-color: black;
+}
+
+.text6{
+    font-size: 25px;
+    position: absolute;
+    float: left;
+    left: 250px;
+    top: 210px;
+    color: black;
+    outline-color: black;
+    width: 860px;
+}
+
+.text7{
+    font-size: 40px;
+    position: absolute;
+    float: left;
+    left: 820px;
+    top: 840px;
+    color: black;
+    outline-color: black;
+    width: 860px;
+    z-index: 2;
+}
+
+.text8{
+    font-size: 25px;
+    position: absolute;
+    float: left;
+    left: 380px;
+    top: 340px;
+    color: black;
+    outline-color: black;
+    width: 860px;
+    z-index: 2;
+}
+
+.Big1{
+    font-size: 50px;
+    position: absolute;
+    float: left;
+    left: 390px;
+    top: 200px;
+    color: black;
+    outline-color: black;
+    width: 660px;
+    z-index: 2;
+}
+
 .s{
     font-size: 20px;
     position: absolute;
@@ -401,6 +468,15 @@ body
     color: black;
     outline-color: black;
     z-index: 5;
+}
+
+.image3{
+    float: left;
+    position: relative;
+    top: 700px;
+    left: 440px;
+    z-index: 1;
+    width: 450px;
 }
 
 @media (max-device-width: 0px)
